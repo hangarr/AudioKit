@@ -90,8 +90,10 @@ $(TESTDIR)/test: $(TESTDIR)/test.o $(TESTDIR)/md5.o | $(TESTDIR)
 # Build the full configuration file and the Soundpipe library
 
 all: $(INTERMEDIATES_PREFIX)/config.mk \
-	$(LIBSOUNDPIPESO) \
-	$(TESTDIR)/test
+	$(LIBSOUNDPIPESO)
+#	$(LIBSOUNDPIPESO) \
+#	$(TESTDIR)/test
+
 
 install: \
 	$(LIBSOUNDPIPESO) | \
