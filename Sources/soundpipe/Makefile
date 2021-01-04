@@ -94,7 +94,6 @@ all: $(INTERMEDIATES_PREFIX)/config.mk \
 #	$(LIBSOUNDPIPESO) \
 #	$(TESTDIR)/test
 
-
 install: \
 	$(LIBSOUNDPIPESO) | \
 		$(PREFIX)/include \
